@@ -49,7 +49,7 @@ void checkWin(char mark[], char playerN) {
     else if (mark[0] == playerN && mark[4] == playerN && mark[8] == playerN) {
         handleWin(playerN);
     }
-    else if (mark[0] == playerN && mark[4] == playerN && mark[5] == playerN) {
+    else if (mark[3] == playerN && mark[4] == playerN && mark[5] == playerN) {
         handleWin(playerN);
     }
     else if (mark[6] == playerN && mark[7] == playerN && mark[8] == playerN) {
