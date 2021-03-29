@@ -61,6 +61,9 @@ void checkWin(char mark[], char playerN) {
     else if (mark[2] == playerN && mark[5] == playerN && mark[8] == playerN) {
         handleWin(playerN);
     }
+    else if (mark[2] == playerN && mark[4] == playerN && mark[6] == playerN) {
+        handleWin(playerN);
+    }
     // check to see if all values across the array are holding the variables X or O, if the board is full with no winner we have a tie (duh)
     int boardCount = 0;
     for (int k = 0; k <= 9; k++) {
