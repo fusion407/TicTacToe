@@ -1,7 +1,5 @@
 /*
     TIC TAC TOE     -      Brady Dorsey
-    
-    Feedback is appreciated, help me become a better programmer
 */
 
 #include <iostream>
